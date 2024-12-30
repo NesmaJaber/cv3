@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'driod';
+    src: url(fonts/Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'driod';
+}
+body{
+    background-color: #eee;
+}
+.logo{
+    padding: 10px 50px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+
+.body .cv-div{
+    background-color: #fff;
+    width: 65%;
+    border-radius: 40px;
+    box-shadow: 2px 2px 20px #b8b8b8 , -2px -2px 20px #b8b8b8 ;
+    
+}
+.content{
+    display: flex;
+}
+.rightside {
+    width: 40%;
+}
+.leftSide{
+    width: 60%;
+}
+.img-user{
+    background-color: #b3587c;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: -80px;
+    border-radius: 30px;
+}
+.img-user img{
+    width: 150px;
+    height: 150px ;
+    border-radius: 50%;
+    border: 2px solid #fff;
+
+}
+.rightside-div .bio{
+    background-color: #853957;
+    color: #Fff;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.rightside-div{
+    background-color: #44192a;
+    border-bottom-right-radius: 30px;
+    height: auto;
+}
+.title{
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.title-left{
+    border: 1px solid #44192a;
+    color: #44192a;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.birthday p{
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+}
+.skills{
+    text-align: center;
+    color: #fff;
+}
+.info-divs{
+    padding: 20px 50px;
+    text-align: center;
+
+}
+.info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+    color: #ffff;
+    
+  
+}
+.box1{
+    padding: 0px 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+.box1 p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.flex{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.date{
+    width: 50%;
+}
+.exp-p{
+    width: 50%;
+    border-right: 2px solid #44192a;
+    position: relative;
+}
+.exp-p p ,.exp-p span{
+    font-size: 14px;
+}
+
+.exp-p::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #44192a;
+    top: 0;
+    right: -6px;
+}
